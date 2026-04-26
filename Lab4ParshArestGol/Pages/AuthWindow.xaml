@@ -1,0 +1,180 @@
+﻿<Window x:Class="Lab4ParshArestGol.Pages.AuthWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab4ParshArestGol.Pages"
+        mc:Ignorable="d"
+        Title="Groomify (авторизация)" Height="640" Width="630" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <Style x:Key="TextBoxStyle" TargetType="TextBox">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="Foreground" Value="#D8BF97"/>
+            <Setter Property="FontFamily" Value="Arial"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Width" Value="400"/>
+            <Setter Property="Height" Value="70"/>
+            <Setter Property="TextAlignment" Value="Left"/>
+            <Setter Property="Padding" Value="15 5"/>
+            <Setter Property="Margin" Value="15"/>
+            <Setter Property="FontFamily" Value="Arial"/>
+            <Setter Property="FontSize" Value="26"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+        </Style>
+        <Style x:Key="LogInButton" TargetType="Button">
+            <Setter Property="Background" Value="#B1AF88"/>
+            <Setter Property="Width" Value="300"/>
+            <Setter Property="Height" Value="70"/>
+            <Setter Property="Margin" Value="15 15 15 35"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="border"
+                                Background="{TemplateBinding Background}">
+                            <TextBlock Text="ВОЙТИ" FontSize="24" FontFamily="Arial" FontWeight="Bold"
+                                       TextAlignment="Center" VerticalAlignment="Center"
+                                       HorizontalAlignment="Center" Foreground="White"/>
+                        </Border>
+
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="#B1AF68"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="OtherButtons" TargetType="Button">
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="Width" Value="150"/>
+            <Setter Property="Background" Value="#896033"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="FontFamily" Value="Arial"/>
+            <Setter Property="Margin" Value="15"/>
+        </Style>
+    </Window.Resources>
+    <Grid Background="#EAEADA">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Border Grid.Row="0" Grid.Column="1"
+                VerticalAlignment="Center" HorizontalAlignment="Center">
+            <StackPanel>
+                <TextBlock Text="АВТОРИЗАЦИЯ" FontSize="32"
+                           FontFamily="Arial Black" Foreground="#896033">
+                    <TextBlock.Effect>
+                        <DropShadowEffect BlurRadius="3" Direction="300" ShadowDepth="1"
+                                          Opacity="0.5"/>
+                    </TextBlock.Effect>
+                </TextBlock>
+            </StackPanel>
+        </Border>
+        <TextBlock Grid.Row="0" Grid.Column="1"
+                   x:Name="TimerText" Foreground="DarkRed" FontSize="20" FontFamily="Arial" FontWeight="Bold"
+                   Margin="0 30 0 0" HorizontalAlignment="Center" VerticalAlignment="Bottom"
+                   Visibility="Collapsed"/>
+
+        
+        <Border Grid.Column="1" Grid.Row="1">
+            <StackPanel Margin="10">
+                <TextBox x:Name="LogInTextBox"
+                         Style="{StaticResource TextBoxStyle}"
+                         Text="Login"
+                         GotFocus="LogInTextBox_GotFocus"
+                         LostFocus="LogInTextBox_LostFocus"
+                         PreviewKeyDown="NoSpaces_PreviewKeyDown">
+                    <TextBox.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="20"/>
+                        </Style>
+                    </TextBox.Resources>
+                    <TextBox.Effect>
+                        <DropShadowEffect BlurRadius="3" Direction="300" ShadowDepth="1"
+                                          Opacity="0.5"/>
+                    </TextBox.Effect>
+                </TextBox>
+                
+                <TextBox x:Name="PasswordTextBox"
+                         Style="{StaticResource TextBoxStyle}"
+                         Text="Password"
+                         GotFocus="PasswordTextBox_GotFocus"
+                         LostFocus="PasswordTextBox_LostFocus"
+                         PreviewKeyDown="NoSpaces_PreviewKeyDown">
+                    <TextBox.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="20"/>
+                        </Style>
+                    </TextBox.Resources>
+                    <TextBox.Effect>
+                        <DropShadowEffect BlurRadius="3" Direction="300" ShadowDepth="1"
+                      Opacity="0.5"/>
+                    </TextBox.Effect>
+                </TextBox>
+
+                <Button x:Name="LogInBtn"
+                        Style="{StaticResource LogInButton}"
+                        Click="LogInBtn_Click">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="20"/>
+                        </Style>
+                    </Button.Resources>
+                    <Button.Effect>
+                        <DropShadowEffect BlurRadius="3" Direction="300" ShadowDepth="2"
+                      Opacity="0.5"/>
+                    </Button.Effect>
+                </Button>
+            </StackPanel>
+        </Border>
+
+
+        <Border Grid.ColumnSpan="3" Grid.Row="2" Background="#D8BF97"/>
+
+        <Border Grid.Column="1" Grid.Row="2">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Button x:Name="BackToMainBtn" Style="{StaticResource OtherButtons}"
+                        Content="НА ГЛАВНУЮ"
+                        Click="BackToMainBtn_Click">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="15"/>
+                        </Style>
+                    </Button.Resources>
+                    <Button.Effect>
+                        <DropShadowEffect BlurRadius="3" Direction="300" ShadowDepth="2"
+                                          Opacity="0.5"/>
+                    </Button.Effect>
+                </Button>
+
+                <Button x:Name="RegBtn" Style="{StaticResource OtherButtons}"
+                        Content="РЕГИСТРАЦИЯ"
+                        Click="RegBtn_Click">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="15"/>
+                        </Style>
+                    </Button.Resources>
+                    <Button.Effect>
+                        <DropShadowEffect BlurRadius="3" Direction="300" ShadowDepth="2"
+                                          Opacity="0.5"/>
+                    </Button.Effect>
+                </Button>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
