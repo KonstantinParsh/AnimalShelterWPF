@@ -5,14 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Lab4ParshArestGol.Pages"
         mc:Ignorable="d"
-        Title="RegWindow" Height="1200" Width="630">
+        Title="Gromify (регистрация)" Height="850" Width="1000" WindowStartupLocation="CenterScreen">
     <Window.Resources>
         <Style x:Key="OtherButtons" TargetType="Button">
-            <Setter Property="Height" Value="50"/>
-            <Setter Property="Width" Value="220"/>
+            <Setter Property="Height" Value="60"/>
+            <Setter Property="Width" Value="260"/>
             <Setter Property="Background" Value="#896033"/>
             <Setter Property="Foreground" Value="White"/>
-            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="FontSize" Value="22"/>
             <Setter Property="FontWeight" Value="Bold"/>
             <Setter Property="FontFamily" Value="Arial"/>
             <Setter Property="Margin" Value="15"/>
@@ -24,12 +24,17 @@
                         <Border x:Name="border" 
                         Background="{TemplateBinding Background}" 
                         CornerRadius="12" 
-                        SnapsToDevicePixels="True">
+                        SnapsToDevicePixels="True"
+                                RenderTransformOrigin="0.5 0.5">
 
                             <Border.Effect>
                                 <DropShadowEffect BlurRadius="8" ShadowDepth="3" Color="Black" Opacity="0.3" Direction="270"/>
                             </Border.Effect>
 
+                            <Border.RenderTransform>
+                                <ScaleTransform ScaleX="1" ScaleY="1"/>
+                            </Border.RenderTransform>
+                            
                             <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Border>
 
@@ -161,9 +166,14 @@
                     <ControlTemplate TargetType="Button">
                         <Border x:Name="border"
                         Background="{TemplateBinding Background}">
-                            <TextBlock Text="ЗАРЕГЕСТРИРОВАТЬСЯ" FontSize="24" FontFamily="Arial" FontWeight="Bold"
+                            <TextBlock Text="ЗАРЕГИСТРИРОВАТЬСЯ" FontSize="24" FontFamily="Arial" FontWeight="Bold"
                                TextAlignment="Center" VerticalAlignment="Center"
-                               HorizontalAlignment="Center" Foreground="White"/>
+                               HorizontalAlignment="Center" Foreground="White"
+                                       RenderTransformOrigin="0.5 0.5"/>
+                            <Border.RenderTransform>
+                                <ScaleTransform ScaleX="1" ScaleY="1"/>
+                            </Border.RenderTransform>
+
                         </Border>
 
                         <ControlTemplate.Triggers>
@@ -184,146 +194,136 @@
         </Style>
     </Window.Resources>
     <Grid Background="#EAEADA">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"></ColumnDefinition>
-            <ColumnDefinition Width="Auto"></ColumnDefinition>
-            <ColumnDefinition Width="*"></ColumnDefinition>
-        </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="*"></RowDefinition>
-            <RowDefinition Height="Auto"></RowDefinition>
-            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="120"/>
         </Grid.RowDefinitions>
 
-        <Border Grid.Row="0" Grid.Column="1"
-        VerticalAlignment="Center" HorizontalAlignment="Center">
-            <StackPanel>
-                <TextBlock Text="РЕГИСТРАЦИЯ" FontSize="32"
-                   FontFamily="Arial Black" Foreground="#896033">
-                    <TextBlock.Effect>
-                        <DropShadowEffect BlurRadius="3" Direction="300" ShadowDepth="1"
-                                  Opacity="0.5"/>
-                    </TextBlock.Effect>
-                </TextBlock>
-            </StackPanel>
-        </Border>
+        <TextBlock Grid.Row="0" 
+               Text="РЕГИСТРАЦИЯ" FontSize="32"
+               FontFamily="Arial Black" Foreground="#896033"
+               VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock.Effect>
+                <DropShadowEffect BlurRadius="3" Direction="300" ShadowDepth="1" Opacity="0.5"/>
+            </TextBlock.Effect>
+        </TextBlock>
 
-        <Border Grid.Column="1" Grid.Row="1"
-                VerticalAlignment="Center" HorizontalAlignment="Center">
-            <StackPanel Margin="10">
-                <TextBox Style="{StaticResource TextBoxStyle}"
-                         Text="ФАМИЛИЯ*">
-                    <TextBox.Resources>
-                        <Style TargetType="Border">
-                            <Setter Property="CornerRadius" Value="20"/>
-                        </Style>
-                    </TextBox.Resources>
-                    <TextBox.Effect>
-                        <DropShadowEffect BlurRadius="3" Direction="300" ShadowDepth="1"
-                                          Opacity="0.5"/>
-                    </TextBox.Effect>
-                </TextBox>
+        <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">
 
-                <TextBox Style="{StaticResource TextBoxStyle}"
-                         Text="ИМЯ*">
-                    <TextBox.Resources>
-                        <Style TargetType="Border">
-                            <Setter Property="CornerRadius" Value="20"/>
-                        </Style>
-                    </TextBox.Resources>
-                    <TextBox.Effect>
-                        <DropShadowEffect BlurRadius="3" Direction="300" ShadowDepth="1"
-                          Opacity="0.5"/>
-                    </TextBox.Effect>
-                </TextBox>
+            <Grid Margin="0,0,0,30">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
 
-                <TextBox Style="{StaticResource TextBoxStyle}"
-                         Text="ОТЧЕСТВО">
-                    <TextBox.Resources>
-                        <Style TargetType="Border">
-                            <Setter Property="CornerRadius" Value="20"/>
-                        </Style>
-                    </TextBox.Resources>
-                    <TextBox.Effect>
-                        <DropShadowEffect BlurRadius="3" Direction="300" ShadowDepth="1"
-                          Opacity="0.5"/>
-                    </TextBox.Effect>
-                </TextBox>
+                <StackPanel Grid.Column="0" Margin="0,0,10,0">
+                    <TextBox Style="{StaticResource TextBoxStyle}" Text="ФАМИЛИЯ*" x:Name="FirstNameField" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" Tag="ФАМИЛИЯ*">
+                        <TextBox.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="20"/>
+                            </Style>
+                        </TextBox.Resources>
+                        <TextBox.Effect>
+                            <DropShadowEffect BlurRadius="3" Direction="300" ShadowDepth="1" Opacity="0.5"/>
+                        </TextBox.Effect>
+                    </TextBox>
 
-                <TextBox Style="{StaticResource TextBoxStyle}"
-                         Text="НОМЕР ТЕЛЕФОНА*">
-                    <TextBox.Resources>
-                        <Style TargetType="Border">
-                            <Setter Property="CornerRadius" Value="20"/>
-                        </Style>
-                    </TextBox.Resources>
-                    <TextBox.Effect>
-                        <DropShadowEffect BlurRadius="3" Direction="300" ShadowDepth="1"
-                          Opacity="0.5"/>
-                    </TextBox.Effect>
-                </TextBox>
+                    <TextBox Style="{StaticResource TextBoxStyle}" Text="ИМЯ*" x:Name="SecondNameField" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" Tag="ИМЯ*">
+                        <TextBox.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="20"/>
+                            </Style>
+                        </TextBox.Resources>
+                        <TextBox.Effect>
+                            <DropShadowEffect BlurRadius="3" Direction="300" ShadowDepth="1" Opacity="0.5"/>
+                        </TextBox.Effect>
+                    </TextBox>
 
-                <ComboBox Style="{StaticResource ComboBoxStyle}">
-                    <ComboBoxItem Content="ВЫБЕРИТЕ РОЛЬ*"
-                                  IsEnabled="False"
-                                  IsSelected="True"
-                                  Visibility="Collapsed"/>
-                    <ComboBoxItem Content="Администратор"/>
-                    <ComboBoxItem Content="Пользователь"/>
-                    <ComboBoxItem Content="Волонтер"/>
-                    <ComboBoxItem Content="Ветеринарный врач"/>
-                </ComboBox>
+                    <TextBox Style="{StaticResource TextBoxStyle}" Text="ОТЧЕСТВО" x:Name="ThirdNameField" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" Tag="ОТЧЕСТВО">
+                        <TextBox.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="20"/>
+                            </Style>
+                        </TextBox.Resources>
+                        <TextBox.Effect>
+                            <DropShadowEffect BlurRadius="3" Direction="300" ShadowDepth="1" Opacity="0.5"/>
+                        </TextBox.Effect>
+                    </TextBox>
 
-                <TextBox Style="{StaticResource TextBoxStyle}"
-                         Text="ПАРОЛЬ*">
-                    <TextBox.Resources>
-                        <Style TargetType="Border">
-                            <Setter Property="CornerRadius" Value="20"/>
-                        </Style>
-                    </TextBox.Resources>
-                    <TextBox.Effect>
-                        <DropShadowEffect BlurRadius="3" Direction="300" ShadowDepth="1"
-                                          Opacity="0.5"/>
-                    </TextBox.Effect>
-                </TextBox>
+                    <TextBox Style="{StaticResource TextBoxStyle}" Text="НОМЕР ТЕЛЕФОНА*" x:Name="PhoneNumberField" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" Tag="НОМЕР ТЕЛЕФОНА*">
+                        <TextBox.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="20"/>
+                            </Style>
+                        </TextBox.Resources>
+                        <TextBox.Effect>
+                            <DropShadowEffect BlurRadius="3" Direction="300" ShadowDepth="1" Opacity="0.5"/>
+                        </TextBox.Effect>
+                    </TextBox>
+                </StackPanel>
 
-                <TextBox Style="{StaticResource TextBoxStyle}"
-                         Text="ПОВТОРИТЕ ПАРОЛЬ*">
-                    <TextBox.Resources>
-                        <Style TargetType="Border">
-                            <Setter Property="CornerRadius" Value="20"/>
-                        </Style>
-                    </TextBox.Resources>
-                    <TextBox.Effect>
-                        <DropShadowEffect BlurRadius="3" Direction="300" ShadowDepth="1"
-                                          Opacity="0.5"/>
-                    </TextBox.Effect>
-                </TextBox>
+                <StackPanel Grid.Column="1" Margin="10,0,0,0">
+                    <ComboBox Style="{StaticResource ComboBoxStyle}" x:Name="RoleField">
+                        <ComboBoxItem Content="ВЫБЕРИТЕ РОЛЬ*" IsEnabled="False" IsSelected="True" Visibility="Collapsed"/>
+                        <ComboBoxItem Content="Администратор"/>
+                        <ComboBoxItem Content="Пользователь"/>
+                        <ComboBoxItem Content="Волонтер"/>
+                        <ComboBoxItem Content="Ветеринарный врач"/>
+                    </ComboBox>
 
-                <Button Style="{StaticResource RegButton}">
-                    <Button.Resources>
-                        <Style TargetType="Border">
-                            <Setter Property="CornerRadius" Value="20"/>
-                        </Style>
-                    </Button.Resources>
-                    <Button.Effect>
-                        <DropShadowEffect BlurRadius="3" Direction="300" ShadowDepth="1"
-                                          Opacity="0.5"/>
-                    </Button.Effect>
-                </Button>
-            </StackPanel>
-        </Border>
+                    <TextBox Style="{StaticResource TextBoxStyle}" Text="НИК*" x:Name="LoginField" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" Tag="НИК*">
+                        <TextBox.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="20"/>
+                            </Style>
+                        </TextBox.Resources>
+                        <TextBox.Effect>
+                            <DropShadowEffect BlurRadius="3" Direction="300" ShadowDepth="1" Opacity="0.5"/>
+                        </TextBox.Effect>
+                    </TextBox>
 
-        <Border Grid.Row="2" Grid.ColumnSpan="3" Background="#D8BF97"/>
+                    <TextBox Style="{StaticResource TextBoxStyle}" Text="ПАРОЛЬ*" x:Name="PasswordField" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" Tag="ПАРОЛЬ*">
+                        <TextBox.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="20"/>
+                            </Style>
+                        </TextBox.Resources>
+                        <TextBox.Effect>
+                            <DropShadowEffect BlurRadius="3" Direction="300" ShadowDepth="1" Opacity="0.5"/>
+                        </TextBox.Effect>
+                    </TextBox>
 
-        <Border Grid.Column="1" Grid.Row="2"
-                HorizontalAlignment="Center" VerticalAlignment="Center">
-            <StackPanel Margin="10" Orientation="Horizontal">
-                <Button Style="{StaticResource OtherButtons}"
-                        Content="НА ГЛАВНУЮ"/>
-                <Button Style="{StaticResource OtherButtons}"
-                        Content="ВОЙТИ"/>
-            </StackPanel>
-        </Border>
+                    <TextBox Style="{StaticResource TextBoxStyle}" Text="ПОВТОРИТЕ ПАРОЛЬ*" x:Name="PasswordRepeatField" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" Tag="ПОВТОРИТЕ ПАРОЛЬ*">
+                        <TextBox.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="20"/>
+                            </Style>
+                        </TextBox.Resources>
+                        <TextBox.Effect>
+                            <DropShadowEffect BlurRadius="3" Direction="300" ShadowDepth="1" Opacity="0.5"/>
+                        </TextBox.Effect>
+                    </TextBox>
+                </StackPanel>
+            </Grid>
+
+            <Button Style="{StaticResource RegButton}" Content="ЗАРЕГИСТРИРОВАТЬСЯ" HorizontalAlignment="Center">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="20"/>
+                    </Style>
+                </Button.Resources>
+                <Button.Effect>
+                    <DropShadowEffect BlurRadius="3" Direction="300" ShadowDepth="1" Opacity="0.5"/>
+                </Button.Effect>
+            </Button>
+        </StackPanel>
+
+        <Border Grid.Row="2" Background="#D8BF97"/>
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Style="{StaticResource OtherButtons}" Content="НА ГЛАВНУЮ"/>
+            <Button Style="{StaticResource OtherButtons}" Content="ВОЙТИ"/>
+        </StackPanel>
     </Grid>
 </Window>

@@ -14,14 +14,29 @@ using System.Windows.Shapes;
 
 namespace Lab4ParshArestGol.Pages
 {
-    /// <summary>
-    /// Логика взаимодействия для RegWindow.xaml
-    /// </summary>
     public partial class RegWindow : Window
     {
         public RegWindow()
         {
             InitializeComponent();
+        }
+
+        public void TextBox_GotFocus(object sender, RoutedEventArgs e)
+        {
+            var tb = sender as TextBox;
+            if (tb != null && tb.Text == tb.Tag.ToString())
+            {
+                tb.Text = "";
+            }
+        }
+
+        public void TextBox_LostFocus(object sender, RoutedEventArgs e)
+        {
+            var tb = sender as TextBox;
+            if (tb != null && string.IsNullOrWhiteSpace(tb.Text))
+            {
+                tb.Text = tb.Tag.ToString();
+            }
         }
     }
 }
