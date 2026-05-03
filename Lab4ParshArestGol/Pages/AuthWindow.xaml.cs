@@ -166,7 +166,9 @@ namespace Lab4ParshArestGol.Pages
 
         private void RegBtn_Click(object sender, RoutedEventArgs e)
         {
-
+            RegWindow regwin = new RegWindow();
+            regwin.ShowDialog();
+            this.Close();
         }
 
         private void NoSpaces_PreviewKeyDown(object sender, KeyEventArgs e)

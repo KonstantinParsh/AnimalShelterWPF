@@ -3,40 +3,48 @@
   "WorkspaceRootPath": "D:\\VSProjects\\Lab4ParshArestGol\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|d:\\vsprojects\\lab4parsharestgol\\lab4parsharestgol\\pages\\authwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\pages\\authwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|d:\\vsprojects\\lab4parsharestgol\\lab4parsharestgol\\pages\\regwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\pages\\regwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|D:\\VSProjects\\Lab4ParshArestGol\\lab4parsharestgol\\pages\\authwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\pages\\authwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|D:\\VSProjects\\Lab4ParshArestGol\\lab4parsharestgol\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|D:\\VSProjects\\Lab4ParshArestGol\\lab4parsharestgol\\pages\\authwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\pages\\authwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|D:\\VSProjects\\Lab4ParshArestGol\\lab4parsharestgol\\core\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\core\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|D:\\VSProjects\\Lab4ParshArestGol\\lab4parsharestgol\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|D:\\VSProjects\\Lab4ParshArestGol\\lab4parsharestgol\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|D:\\VSProjects\\Lab4ParshArestGol\\lab4parsharestgol\\pages\\startpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\pages\\startpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|D:\\VSProjects\\Lab4ParshArestGol\\lab4parsharestgol\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|D:\\VSProjects\\Lab4ParshArestGol\\lab4parsharestgol\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|D:\\VSProjects\\Lab4ParshArestGol\\lab4parsharestgol\\pages\\startpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\pages\\startpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|D:\\VSProjects\\Lab4ParshArestGol\\lab4parsharestgol\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|D:\\VSProjects\\Lab4ParshArestGol\\lab4parsharestgol\\core\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\core\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|D:\\VSProjects\\Lab4ParshArestGol\\lab4parsharestgol\\core\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\core\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|D:\\VSProjects\\Lab4ParshArestGol\\lab4parsharestgol\\pages\\startpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\pages\\startpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|D:\\VSProjects\\Lab4ParshArestGol\\lab4parsharestgol\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|D:\\VSProjects\\Lab4ParshArestGol\\lab4parsharestgol\\models\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\models\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|D:\\VSProjects\\Lab4ParshArestGol\\lab4parsharestgol\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,11 +62,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 261,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "RegWindow.xaml",
+              "DocumentMoniker": "D:\\VSProjects\\Lab4ParshArestGol\\Lab4ParshArestGol\\Pages\\RegWindow.xaml",
+              "RelativeDocumentMoniker": "Lab4ParshArestGol\\Pages\\RegWindow.xaml",
+              "ToolTip": "D:\\VSProjects\\Lab4ParshArestGol\\Lab4ParshArestGol\\Pages\\RegWindow.xaml",
+              "RelativeToolTip": "Lab4ParshArestGol\\Pages\\RegWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-03T08:18:40.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "App.xaml",
               "DocumentMoniker": "D:\\VSProjects\\Lab4ParshArestGol\\Lab4ParshArestGol\\App.xaml",
               "RelativeDocumentMoniker": "Lab4ParshArestGol\\App.xaml",
@@ -80,61 +96,20 @@
               "RelativeDocumentMoniker": "Lab4ParshArestGol\\Pages\\AuthWindow.xaml.cs",
               "ToolTip": "D:\\VSProjects\\Lab4ParshArestGol\\Lab4ParshArestGol\\Pages\\AuthWindow.xaml.cs",
               "RelativeToolTip": "Lab4ParshArestGol\\Pages\\AuthWindow.xaml.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAAwHIAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAYwKoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T06:45:28.981Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-26T06:45:28.981Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AuthWindow.xaml",
               "DocumentMoniker": "D:\\VSProjects\\Lab4ParshArestGol\\Lab4ParshArestGol\\Pages\\AuthWindow.xaml",
               "RelativeDocumentMoniker": "Lab4ParshArestGol\\Pages\\AuthWindow.xaml",
               "ToolTip": "D:\\VSProjects\\Lab4ParshArestGol\\Lab4ParshArestGol\\Pages\\AuthWindow.xaml",
               "RelativeToolTip": "Lab4ParshArestGol\\Pages\\AuthWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-26T06:44:43.203Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserSession.cs",
-              "DocumentMoniker": "D:\\VSProjects\\Lab4ParshArestGol\\Lab4ParshArestGol\\Core\\UserSession.cs",
-              "RelativeDocumentMoniker": "Lab4ParshArestGol\\Core\\UserSession.cs",
-              "ToolTip": "D:\\VSProjects\\Lab4ParshArestGol\\Lab4ParshArestGol\\Core\\UserSession.cs",
-              "RelativeToolTip": "Lab4ParshArestGol\\Core\\UserSession.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T15:08:05.572Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Animal.cs",
-              "DocumentMoniker": "D:\\VSProjects\\Lab4ParshArestGol\\Lab4ParshArestGol\\Models\\Animal.cs",
-              "RelativeDocumentMoniker": "Lab4ParshArestGol\\Models\\Animal.cs",
-              "ToolTip": "D:\\VSProjects\\Lab4ParshArestGol\\Lab4ParshArestGol\\Models\\Animal.cs",
-              "RelativeToolTip": "Lab4ParshArestGol\\Models\\Animal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T15:04:04.743Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\VSProjects\\Lab4ParshArestGol\\Lab4ParshArestGol\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Lab4ParshArestGol\\Models\\User.cs",
-              "ToolTip": "D:\\VSProjects\\Lab4ParshArestGol\\Lab4ParshArestGol\\Models\\User.cs",
-              "RelativeToolTip": "Lab4ParshArestGol\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T14:58:39.646Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-26T06:44:43.203Z"
             },
             {
               "$type": "Document",
@@ -146,24 +121,22 @@
               "RelativeToolTip": "Lab4ParshArestGol\\Core\\DatabaseHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T14:50:03.444Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-22T14:50:03.444Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "StartPage.xaml",
               "DocumentMoniker": "D:\\VSProjects\\Lab4ParshArestGol\\Lab4ParshArestGol\\Pages\\StartPage.xaml",
               "RelativeDocumentMoniker": "Lab4ParshArestGol\\Pages\\StartPage.xaml",
               "ToolTip": "D:\\VSProjects\\Lab4ParshArestGol\\Lab4ParshArestGol\\Pages\\StartPage.xaml",
               "RelativeToolTip": "Lab4ParshArestGol\\Pages\\StartPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-22T14:22:38.313Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-22T14:22:38.313Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "App.config",
               "DocumentMoniker": "D:\\VSProjects\\Lab4ParshArestGol\\Lab4ParshArestGol\\App.config",
               "RelativeDocumentMoniker": "Lab4ParshArestGol\\App.config",
@@ -171,21 +144,31 @@
               "RelativeToolTip": "Lab4ParshArestGol\\App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2026-04-22T14:08:22.563Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-22T14:08:22.563Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "StartPage.xaml.cs",
-              "DocumentMoniker": "D:\\VSProjects\\Lab4ParshArestGol\\Lab4ParshArestGol\\Pages\\StartPage.xaml.cs",
-              "RelativeDocumentMoniker": "Lab4ParshArestGol\\Pages\\StartPage.xaml.cs",
-              "ToolTip": "D:\\VSProjects\\Lab4ParshArestGol\\Lab4ParshArestGol\\Pages\\StartPage.xaml.cs",
-              "RelativeToolTip": "Lab4ParshArestGol\\Pages\\StartPage.xaml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\VSProjects\\Lab4ParshArestGol\\Lab4ParshArestGol\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Lab4ParshArestGol\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\VSProjects\\Lab4ParshArestGol\\Lab4ParshArestGol\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Lab4ParshArestGol\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T16:08:06.21Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-20T15:14:37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Animal.cs",
+              "DocumentMoniker": "D:\\VSProjects\\Lab4ParshArestGol\\Lab4ParshArestGol\\Models\\Animal.cs",
+              "RelativeDocumentMoniker": "Lab4ParshArestGol\\Models\\Animal.cs",
+              "ToolTip": "D:\\VSProjects\\Lab4ParshArestGol\\Lab4ParshArestGol\\Models\\Animal.cs",
+              "RelativeToolTip": "Lab4ParshArestGol\\Models\\Animal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T15:04:04.743Z"
             },
             {
               "$type": "Document",
@@ -196,21 +179,43 @@
               "ToolTip": "D:\\VSProjects\\Lab4ParshArestGol\\Lab4ParshArestGol\\MainWindow.xaml",
               "RelativeToolTip": "Lab4ParshArestGol\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-20T15:14:40.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-20T15:14:40.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StartPage.xaml.cs",
+              "DocumentMoniker": "D:\\VSProjects\\Lab4ParshArestGol\\Lab4ParshArestGol\\Pages\\StartPage.xaml.cs",
+              "RelativeDocumentMoniker": "Lab4ParshArestGol\\Pages\\StartPage.xaml.cs",
+              "ToolTip": "D:\\VSProjects\\Lab4ParshArestGol\\Lab4ParshArestGol\\Pages\\StartPage.xaml.cs",
+              "RelativeToolTip": "Lab4ParshArestGol\\Pages\\StartPage.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T16:08:06.21Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\VSProjects\\Lab4ParshArestGol\\Lab4ParshArestGol\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Lab4ParshArestGol\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\VSProjects\\Lab4ParshArestGol\\Lab4ParshArestGol\\MainWindow.xaml.cs",
-              "RelativeToolTip": "Lab4ParshArestGol\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAApAAAAAAAAAA==",
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\VSProjects\\Lab4ParshArestGol\\Lab4ParshArestGol\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Lab4ParshArestGol\\Models\\User.cs",
+              "ToolTip": "D:\\VSProjects\\Lab4ParshArestGol\\Lab4ParshArestGol\\Models\\User.cs",
+              "RelativeToolTip": "Lab4ParshArestGol\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T15:14:37Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-22T14:58:39.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserSession.cs",
+              "DocumentMoniker": "D:\\VSProjects\\Lab4ParshArestGol\\Lab4ParshArestGol\\Core\\UserSession.cs",
+              "RelativeDocumentMoniker": "Lab4ParshArestGol\\Core\\UserSession.cs",
+              "ToolTip": "D:\\VSProjects\\Lab4ParshArestGol\\Lab4ParshArestGol\\Core\\UserSession.cs",
+              "RelativeToolTip": "Lab4ParshArestGol\\Core\\UserSession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T15:08:05.572Z"
             }
           ]
         }
