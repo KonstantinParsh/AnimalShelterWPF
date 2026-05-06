@@ -38,5 +38,22 @@ namespace Lab4ParshArestGol.Pages
                 tb.Text = tb.Tag.ToString();
             }
         }
+
+        private void RegBut_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BackToMain_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void LogInBut_Click(object sender, RoutedEventArgs e)
+        {
+            AuthWindow authWindow = new AuthWindow();
+            this.Close();
+            authWindow.Show();
+        }
     }
 }

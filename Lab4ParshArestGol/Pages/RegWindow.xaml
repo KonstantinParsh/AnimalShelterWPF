@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Lab4ParshArestGol.Pages"
         mc:Ignorable="d"
-        Title="Gromify (регистрация)" Height="850" Width="1000" WindowStartupLocation="CenterScreen">
+        Title="Gromify (регистрация)" Height="850" Width="1000" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Window.Resources>
         <Style x:Key="OtherButtons" TargetType="Button">
             <Setter Property="Height" Value="60"/>
@@ -307,7 +307,8 @@
                 </StackPanel>
             </Grid>
 
-            <Button Style="{StaticResource RegButton}" Content="ЗАРЕГИСТРИРОВАТЬСЯ" HorizontalAlignment="Center">
+            <Button Style="{StaticResource RegButton}" Content="ЗАРЕГИСТРИРОВАТЬСЯ" HorizontalAlignment="Center"
+                    x:Name="RegBut" Click="RegBut_Click">
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="20"/>
@@ -322,8 +323,12 @@
         <Border Grid.Row="2" Background="#D8BF97"/>
 
         <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-            <Button Style="{StaticResource OtherButtons}" Content="НА ГЛАВНУЮ"/>
-            <Button Style="{StaticResource OtherButtons}" Content="ВОЙТИ"/>
+            <Button Style="{StaticResource OtherButtons}" 
+                    Content="НА ГЛАВНУЮ"
+                    x:Name="BackToMain" Click="BackToMain_Click"/>
+            <Button Style="{StaticResource OtherButtons}" 
+                    Content="ВОЙТИ"
+                    x:Name="LogInBut" Click="LogInBut_Click"/>
         </StackPanel>
     </Grid>
 </Window>

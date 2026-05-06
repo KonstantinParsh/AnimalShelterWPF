@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Lab4ParshArestGol.Pages"
         mc:Ignorable="d"
-        Title="Groomify (авторизация)" Height="640" Width="630" WindowStartupLocation="CenterScreen">
+        Title="Groomify (авторизация)" Height="640" Width="630" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Window.Resources>
         <Style x:Key="TextBoxStyle" TargetType="TextBox">
             <Setter Property="Background" Value="White"/>
