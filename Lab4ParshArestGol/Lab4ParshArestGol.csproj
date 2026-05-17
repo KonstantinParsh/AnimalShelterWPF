@@ -71,15 +71,34 @@
     <Compile Include="Core\DatabaseHelper.cs" />
     <Compile Include="Core\UserSession.cs" />
     <Compile Include="Models\Animal.cs" />
+    <Compile Include="Models\RequestItem.cs" />
     <Compile Include="Models\User.cs" />
+    <Compile Include="Pages\AdminApplicationPage.xaml.cs">
+      <DependentUpon>AdminApplicationPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\AnimalInfo.xaml.cs">
+      <DependentUpon>AnimalInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ApplicationPage.xaml.cs">
+      <DependentUpon>ApplicationPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\AuthWindow.xaml.cs">
       <DependentUpon>AuthWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\CabinetPage.xaml.cs">
+      <DependentUpon>CabinetPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\CardsPage.xaml.cs">
       <DependentUpon>CardsPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\ConfirmRequestWindow.xaml.cs">
+      <DependentUpon>ConfirmRequestWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\RegWindow.xaml.cs">
       <DependentUpon>RegWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\RequestPage.xaml.cs">
+      <DependentUpon>RequestPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\StartPage.xaml.cs">
       <DependentUpon>StartPage.xaml</DependentUpon>
@@ -96,7 +115,23 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Pages\AdminApplicationPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\AnimalInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\ApplicationPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\AuthWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\CabinetPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -104,7 +139,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\ConfirmRequestWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\RegWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\RequestPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -166,6 +209,24 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\BackwardBtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\bagira.jpg" />
+    <Resource Include="Images\barsik.jpg" />
+    <Resource Include="Images\bella.jpg" />
+    <Resource Include="Images\charli.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\kesha.jpg" />
+    <Resource Include="Images\lucy.jpg" />
+    <Resource Include="Images\murka.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\pushok.jpg" />
+    <Resource Include="Images\reks.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\snezhok.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

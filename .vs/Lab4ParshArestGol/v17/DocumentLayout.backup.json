@@ -3,40 +3,100 @@
   "WorkspaceRootPath": "D:\\VSProjects\\AnimalShelterWPF-master\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|d:\\vsprojects\\animalshelterwpf-master\\lab4parsharestgol\\pages\\cardspage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|d:\\vsprojects\\animalshelterwpf-master\\lab4parsharestgol\\pages\\requestpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\pages\\requestpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|D:\\VSProjects\\AnimalShelterWPF-master\\lab4parsharestgol\\pages\\cardspage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
       "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\pages\\cardspage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|d:\\vsprojects\\animalshelterwpf-master\\lab4parsharestgol\\pages\\cardspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|D:\\VSProjects\\AnimalShelterWPF-master\\lab4parsharestgol\\pages\\cardspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\pages\\cardspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|d:\\vsprojects\\animalshelterwpf-master\\lab4parsharestgol\\pages\\startpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\pages\\startpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|d:\\vsprojects\\animalshelterwpf-master\\lab4parsharestgol\\pages\\requestpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\pages\\requestpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|d:\\vsprojects\\animalshelterwpf-master\\lab4parsharestgol\\pages\\startpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\pages\\startpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|d:\\vsprojects\\animalshelterwpf-master\\lab4parsharestgol\\pages\\adminapplicationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\pages\\adminapplicationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|d:\\vsprojects\\animalshelterwpf-master\\lab4parsharestgol\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|d:\\vsprojects\\animalshelterwpf-master\\lab4parsharestgol\\models\\requestitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\models\\requestitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|d:\\vsprojects\\animalshelterwpf-master\\lab4parsharestgol\\models\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|D:\\VSProjects\\AnimalShelterWPF-master\\lab4parsharestgol\\pages\\animalinfo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\pages\\animalinfo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|d:\\vsprojects\\animalshelterwpf-master\\lab4parsharestgol\\pages\\applicationpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\pages\\applicationpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|d:\\vsprojects\\animalshelterwpf-master\\lab4parsharestgol\\pages\\applicationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\pages\\applicationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|D:\\VSProjects\\AnimalShelterWPF-master\\lab4parsharestgol\\pages\\animalinfo.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\pages\\animalinfo.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|D:\\VSProjects\\AnimalShelterWPF-master\\lab4parsharestgol\\models\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\models\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|d:\\vsprojects\\animalshelterwpf-master\\lab4parsharestgol\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|d:\\vsprojects\\animalshelterwpf-master\\lab4parsharestgol\\pages\\adminapplicationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\pages\\adminapplicationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|d:\\vsprojects\\animalshelterwpf-master\\lab4parsharestgol\\pages\\regwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|d:\\vsprojects\\animalshelterwpf-master\\lab4parsharestgol\\pages\\cabinetpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\pages\\cabinetpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|D:\\VSProjects\\AnimalShelterWPF-master\\lab4parsharestgol\\pages\\regwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\pages\\regwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|D:\\VSProjects\\AnimalShelterWPF-master\\lab4parsharestgol\\pages\\regwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\pages\\regwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|d:\\vsprojects\\animalshelterwpf-master\\lab4parsharestgol\\pages\\regwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\pages\\regwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|d:\\vsprojects\\animalshelterwpf-master\\lab4parsharestgol\\pages\\confirmrequestwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\pages\\confirmrequestwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|d:\\vsprojects\\animalshelterwpf-master\\lab4parsharestgol\\pages\\confirmrequestwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\pages\\confirmrequestwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|D:\\VSProjects\\AnimalShelterWPF-master\\lab4parsharestgol\\pages\\startpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\pages\\startpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|d:\\vsprojects\\animalshelterwpf-master\\lab4parsharestgol\\pages\\cabinetpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\pages\\cabinetpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|D:\\VSProjects\\AnimalShelterWPF-master\\lab4parsharestgol\\pages\\startpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\pages\\startpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|D:\\VSProjects\\AnimalShelterWPF-master\\lab4parsharestgol\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|D:\\VSProjects\\AnimalShelterWPF-master\\lab4parsharestgol\\core\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\core\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|D:\\VSProjects\\AnimalShelterWPF-master\\lab4parsharestgol\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|D:\\VSProjects\\AnimalShelterWPF-master\\lab4parsharestgol\\core\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F09A20A-C09E-4481-8C16-C92584B5EDA4}|Lab4ParshArestGol\\Lab4ParshArestGol.csproj|solutionrelative:lab4parsharestgol\\core\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,119 +106,308 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Animal.cs",
-              "DocumentMoniker": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Models\\Animal.cs",
-              "RelativeDocumentMoniker": "Lab4ParshArestGol\\Models\\Animal.cs",
-              "ToolTip": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Models\\Animal.cs",
-              "RelativeToolTip": "Lab4ParshArestGol\\Models\\Animal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "ApplicationPage.xaml.cs",
+              "DocumentMoniker": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Pages\\ApplicationPage.xaml.cs",
+              "RelativeDocumentMoniker": "Lab4ParshArestGol\\Pages\\ApplicationPage.xaml.cs",
+              "ToolTip": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Pages\\ApplicationPage.xaml.cs",
+              "RelativeToolTip": "Lab4ParshArestGol\\Pages\\ApplicationPage.xaml.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAcwJ4AAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T15:06:30.768Z",
+              "WhenOpened": "2026-05-17T13:54:36.745Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CardsPage.xaml.cs",
-              "DocumentMoniker": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Pages\\CardsPage.xaml.cs",
-              "RelativeDocumentMoniker": "Lab4ParshArestGol\\Pages\\CardsPage.xaml.cs",
-              "ToolTip": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Pages\\CardsPage.xaml.cs",
-              "RelativeToolTip": "Lab4ParshArestGol\\Pages\\CardsPage.xaml.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T14:30:40.397Z",
+              "DocumentIndex": 8,
+              "Title": "ApplicationPage.xaml",
+              "DocumentMoniker": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Pages\\ApplicationPage.xaml",
+              "RelativeDocumentMoniker": "Lab4ParshArestGol\\Pages\\ApplicationPage.xaml",
+              "ToolTip": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Pages\\ApplicationPage.xaml",
+              "RelativeToolTip": "Lab4ParshArestGol\\Pages\\ApplicationPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-17T13:52:38.635Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Lab4ParshArestGol\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\MainWindow.xaml.cs",
-              "RelativeToolTip": "Lab4ParshArestGol\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T13:55:26.812Z",
+              "Title": "AdminApplicationPage.xaml",
+              "DocumentMoniker": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Pages\\AdminApplicationPage.xaml",
+              "RelativeDocumentMoniker": "Lab4ParshArestGol\\Pages\\AdminApplicationPage.xaml",
+              "ToolTip": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Pages\\AdminApplicationPage.xaml",
+              "RelativeToolTip": "Lab4ParshArestGol\\Pages\\AdminApplicationPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-17T12:33:53.819Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "Lab4ParshArestGol\\MainWindow.xaml",
-              "ToolTip": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\MainWindow.xaml",
-              "RelativeToolTip": "Lab4ParshArestGol\\MainWindow.xaml",
+              "DocumentIndex": 3,
+              "Title": "RequestPage.xaml",
+              "DocumentMoniker": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Pages\\RequestPage.xaml",
+              "RelativeDocumentMoniker": "Lab4ParshArestGol\\Pages\\RequestPage.xaml",
+              "ToolTip": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Pages\\RequestPage.xaml",
+              "RelativeToolTip": "Lab4ParshArestGol\\Pages\\RequestPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-14T13:55:21.581Z",
+              "WhenOpened": "2026-05-17T08:58:52.535Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "StartPage.xaml.cs",
-              "DocumentMoniker": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Pages\\StartPage.xaml.cs",
-              "RelativeDocumentMoniker": "Lab4ParshArestGol\\Pages\\StartPage.xaml.cs",
-              "ToolTip": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Pages\\StartPage.xaml.cs",
-              "RelativeToolTip": "Lab4ParshArestGol\\Pages\\StartPage.xaml.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwCwAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T13:52:57.75Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "CardsPage.xaml",
               "DocumentMoniker": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Pages\\CardsPage.xaml",
               "RelativeDocumentMoniker": "Lab4ParshArestGol\\Pages\\CardsPage.xaml",
               "ToolTip": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Pages\\CardsPage.xaml",
               "RelativeToolTip": "Lab4ParshArestGol\\Pages\\CardsPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-14T13:52:03.89Z",
+              "WhenOpened": "2026-05-16T08:24:26.656Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StartPage.xaml",
-              "DocumentMoniker": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Pages\\StartPage.xaml",
-              "RelativeDocumentMoniker": "Lab4ParshArestGol\\Pages\\StartPage.xaml",
-              "ToolTip": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Pages\\StartPage.xaml",
-              "RelativeToolTip": "Lab4ParshArestGol\\Pages\\StartPage.xaml",
+              "DocumentIndex": 0,
+              "Title": "Pages\\RequestPage.xaml.cs",
+              "DocumentMoniker": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Pages\\RequestPage.xaml.cs",
+              "RelativeDocumentMoniker": "Lab4ParshArestGol\\Pages\\RequestPage.xaml.cs",
+              "ToolTip": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Pages\\RequestPage.xaml.cs",
+              "RelativeToolTip": "Lab4ParshArestGol\\Pages\\RequestPage.xaml.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAIwJYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T09:34:28.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AnimalInfo.xaml",
+              "DocumentMoniker": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Pages\\AnimalInfo.xaml",
+              "RelativeDocumentMoniker": "Lab4ParshArestGol\\Pages\\AnimalInfo.xaml",
+              "ToolTip": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Pages\\AnimalInfo.xaml",
+              "RelativeToolTip": "Lab4ParshArestGol\\Pages\\AnimalInfo.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-14T12:40:09.593Z",
+              "WhenOpened": "2026-05-16T11:32:57.858Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
+              "Title": "AnimalInfo.xaml.cs",
+              "DocumentMoniker": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Pages\\AnimalInfo.xaml.cs",
+              "RelativeDocumentMoniker": "Lab4ParshArestGol\\Pages\\AnimalInfo.xaml.cs",
+              "ToolTip": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Pages\\AnimalInfo.xaml.cs",
+              "RelativeToolTip": "Lab4ParshArestGol\\Pages\\AnimalInfo.xaml.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAA8wGgAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T12:09:01.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RequestItem.cs",
+              "DocumentMoniker": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Models\\RequestItem.cs",
+              "RelativeDocumentMoniker": "Lab4ParshArestGol\\Models\\RequestItem.cs",
+              "ToolTip": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Models\\RequestItem.cs",
+              "RelativeToolTip": "Lab4ParshArestGol\\Models\\RequestItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T09:52:01.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CardsPage.xaml.cs",
+              "DocumentMoniker": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Pages\\CardsPage.xaml.cs",
+              "RelativeDocumentMoniker": "Lab4ParshArestGol\\Pages\\CardsPage.xaml.cs",
+              "ToolTip": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Pages\\CardsPage.xaml.cs",
+              "RelativeToolTip": "Lab4ParshArestGol\\Pages\\CardsPage.xaml.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAAAH8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T08:25:11.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Animal.cs",
+              "DocumentMoniker": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Models\\Animal.cs",
+              "RelativeDocumentMoniker": "Lab4ParshArestGol\\Models\\Animal.cs",
+              "ToolTip": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Models\\Animal.cs",
+              "RelativeToolTip": "Lab4ParshArestGol\\Models\\Animal.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T10:29:43.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Pages\\AdminApplicationPage.xaml.cs",
+              "DocumentMoniker": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Pages\\AdminApplicationPage.xaml.cs",
+              "RelativeDocumentMoniker": "Lab4ParshArestGol\\Pages\\AdminApplicationPage.xaml.cs",
+              "ToolTip": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Pages\\AdminApplicationPage.xaml.cs",
+              "RelativeToolTip": "Lab4ParshArestGol\\Pages\\AdminApplicationPage.xaml.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAgwLEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T12:39:53.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Pages\\CabinetPage.xaml.cs",
+              "DocumentMoniker": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Pages\\CabinetPage.xaml.cs",
+              "RelativeDocumentMoniker": "Lab4ParshArestGol\\Pages\\CabinetPage.xaml.cs",
+              "ToolTip": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Pages\\CabinetPage.xaml.cs",
+              "RelativeToolTip": "Lab4ParshArestGol\\Pages\\CabinetPage.xaml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAwBgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T07:52:53.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "RegWindow.xaml.cs",
               "DocumentMoniker": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Pages\\RegWindow.xaml.cs",
               "RelativeDocumentMoniker": "Lab4ParshArestGol\\Pages\\RegWindow.xaml.cs",
               "ToolTip": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Pages\\RegWindow.xaml.cs",
               "RelativeToolTip": "Lab4ParshArestGol\\Pages\\RegWindow.xaml.cs",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAcwHEAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T12:39:49.765Z",
+              "WhenOpened": "2026-05-16T13:07:24.928Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "RegWindow.xaml",
               "DocumentMoniker": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Pages\\RegWindow.xaml",
               "RelativeDocumentMoniker": "Lab4ParshArestGol\\Pages\\RegWindow.xaml",
               "ToolTip": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Pages\\RegWindow.xaml",
               "RelativeToolTip": "Lab4ParshArestGol\\Pages\\RegWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-14T12:39:28.63Z",
+              "WhenOpened": "2026-05-16T08:27:16.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ConfirmRequestWindow.xaml",
+              "DocumentMoniker": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Pages\\ConfirmRequestWindow.xaml",
+              "RelativeDocumentMoniker": "Lab4ParshArestGol\\Pages\\ConfirmRequestWindow.xaml",
+              "ToolTip": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Pages\\ConfirmRequestWindow.xaml",
+              "RelativeToolTip": "Lab4ParshArestGol\\Pages\\ConfirmRequestWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-17T09:57:17.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Pages\\ConfirmRequestWindow.xaml.cs",
+              "DocumentMoniker": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Pages\\ConfirmRequestWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Lab4ParshArestGol\\Pages\\ConfirmRequestWindow.xaml.cs",
+              "ToolTip": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Pages\\ConfirmRequestWindow.xaml.cs",
+              "RelativeToolTip": "Lab4ParshArestGol\\Pages\\ConfirmRequestWindow.xaml.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowCIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T10:02:40.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "StartPage.xaml",
+              "DocumentMoniker": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Pages\\StartPage.xaml",
+              "RelativeDocumentMoniker": "Lab4ParshArestGol\\Pages\\StartPage.xaml",
+              "ToolTip": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Pages\\StartPage.xaml",
+              "RelativeToolTip": "Lab4ParshArestGol\\Pages\\StartPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-16T08:25:24.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Core\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "Lab4ParshArestGol\\Core\\DatabaseHelper.cs",
+              "ToolTip": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Core\\DatabaseHelper.cs",
+              "RelativeToolTip": "Lab4ParshArestGol\\Core\\DatabaseHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T09:35:58.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Lab4ParshArestGol\\Models\\User.cs",
+              "ToolTip": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Models\\User.cs",
+              "RelativeToolTip": "Lab4ParshArestGol\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T15:57:26.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CabinetPage.xaml",
+              "DocumentMoniker": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Pages\\CabinetPage.xaml",
+              "RelativeDocumentMoniker": "Lab4ParshArestGol\\Pages\\CabinetPage.xaml",
+              "ToolTip": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Pages\\CabinetPage.xaml",
+              "RelativeToolTip": "Lab4ParshArestGol\\Pages\\CabinetPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-17T06:35:26.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "StartPage.xaml.cs",
+              "DocumentMoniker": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Pages\\StartPage.xaml.cs",
+              "RelativeDocumentMoniker": "Lab4ParshArestGol\\Pages\\StartPage.xaml.cs",
+              "ToolTip": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Pages\\StartPage.xaml.cs",
+              "RelativeToolTip": "Lab4ParshArestGol\\Pages\\StartPage.xaml.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAQwC8AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T09:22:58.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\App.config",
+              "RelativeDocumentMoniker": "Lab4ParshArestGol\\App.config",
+              "ToolTip": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\App.config",
+              "RelativeToolTip": "Lab4ParshArestGol\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-05-16T09:30:07.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserSession.cs",
+              "DocumentMoniker": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Core\\UserSession.cs",
+              "RelativeDocumentMoniker": "Lab4ParshArestGol\\Core\\UserSession.cs",
+              "ToolTip": "D:\\VSProjects\\AnimalShelterWPF-master\\Lab4ParshArestGol\\Core\\UserSession.cs",
+              "RelativeToolTip": "Lab4ParshArestGol\\Core\\UserSession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T15:56:32.912Z",
               "EditorCaption": ""
             }
           ]

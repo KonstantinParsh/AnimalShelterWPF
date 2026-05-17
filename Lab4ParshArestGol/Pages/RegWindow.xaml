@@ -161,6 +161,7 @@
             <Setter Property="Height" Value="70"/>
             <Setter Property="Margin" Value="15 15 15 35"/>
             <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="Button">

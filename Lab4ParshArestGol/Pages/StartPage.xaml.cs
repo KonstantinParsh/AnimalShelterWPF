@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Lab4ParshArestGol.Core;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -42,8 +43,15 @@ namespace Lab4ParshArestGol.Pages
 
         private void UserLogginingBtn_Click(object sender, RoutedEventArgs e)
         {
-            AuthWindow authWin = new AuthWindow();
-            authWin.ShowDialog();
+            if (UserSession.IsAuthorized())
+            {
+                this.NavigationService.Navigate(new CabinetPage());
+            }
+            else
+            {
+                AuthWindow authWin = new AuthWindow();
+                authWin.ShowDialog();
+            }
         }
 
         private void LookingButton_Click(object sender, RoutedEventArgs e)

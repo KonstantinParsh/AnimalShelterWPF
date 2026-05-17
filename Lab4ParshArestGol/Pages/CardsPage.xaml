@@ -8,36 +8,170 @@
       d:DesignHeight="1000" d:DesignWidth="800"
       Title="CardsPage">
     <Page.Resources>
-        <Style x:Key="AnimalCardButtonStyle" TargetType="Button">
-            <Setter Property="Background" Value="White"/>
+        <Style x:Key="MakeARequest" TargetType="Button">
+            <Setter Property="Background" Value="#D8BF97"/>
+            <Setter Property="Width" Value="350"/>
+            <Setter Property="Height" Value="60"/>
+            <Setter Property="Margin" Value="15 15 15 35"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
             <Setter Property="Template">
                 <Setter.Value>
-                    <ControlTemplate>
+                    <ControlTemplate TargetType="Button">
                         <Border x:Name="border"
-                                Background="{TemplateBinding Background}"
-                                CornerRadius="20" BorderThickness="0"
-                                Margin="10" Width="400" Height="150"
-                                RenderTransformOrigin="0.5 0.5">
+                Background="{TemplateBinding Background}" BorderThickness="3" BorderBrush="#977C5F">
+                            <TextBlock Text="ДОБАВИТЬ ЖИВОТНОГО!" FontSize="22" FontFamily="Arial" FontWeight="Bold"
+                       TextAlignment="Center" VerticalAlignment="Center"
+                       HorizontalAlignment="Center" Foreground="White"
+                               RenderTransformOrigin="0.5 0.5"/>
+                            <Border.RenderTransform>
+                                <ScaleTransform ScaleX="1" ScaleY="1"/>
+                            </Border.RenderTransform>
+
+                        </Border>
+
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="#977C5F"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="border" Property="RenderTransform">
+                                    <Setter.Value>
+                                        <ScaleTransform ScaleX="0.99" ScaleY="0.99"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="RoundedTextBoxStyle" TargetType="TextBox">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Padding" Value="8,2"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border Background="{TemplateBinding Background}" 
+                            CornerRadius="8" 
+                            BorderThickness="0">
+                            <ScrollViewer x:Name="PART_ContentHost"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="RoundedComboBoxStyle" TargetType="ComboBox">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Padding" Value="8,0,0,0"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ComboBox">
+                        <Grid>
+                            <Border Background="{TemplateBinding Background}" 
+                                CornerRadius="8" 
+                                BorderThickness="0"/>
+                            <ContentPresenter x:Name="ContentSite" IsHitTestVisible="False" 
+                                          Content="{TemplateBinding SelectionBoxItem}"
+                                          ContentTemplate="{TemplateBinding SelectionBoxItemTemplate}"
+                                          ContentTemplateSelector="{TemplateBinding ItemTemplateSelector}"
+                                          Margin="{TemplateBinding Padding}" 
+                                          VerticalAlignment="Center"/>
+                            <ToggleButton x:Name="ToggleButton" ClickMode="Press" Focusable="false" 
+                                      IsChecked="{Binding IsDropDownOpen, RelativeSource={RelativeSource TemplatedParent}}" 
+                                      Opacity="0"/>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="BackToMainBtnStyle" TargetType="Button">
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="Width" Value="150"/>
+            <Setter Property="Background" Value="#896033"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontFamily" Value="Arial"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="border" 
+            Background="{TemplateBinding Background}" 
+            CornerRadius="12" 
+            SnapsToDevicePixels="True"
+                    RenderTransformOrigin="0.5 0.5">
+
                             <Border.Effect>
-                                <DropShadowEffect BlurRadius="15" ShadowDepth="3"
-                                                  Direction="275" Opacity="0.5"/>
+                                <DropShadowEffect BlurRadius="8" ShadowDepth="3" Color="Black" Opacity="0.3" Direction="270"/>
                             </Border.Effect>
 
                             <Border.RenderTransform>
                                 <ScaleTransform ScaleX="1" ScaleY="1"/>
                             </Border.RenderTransform>
 
-                            <ContentPresenter/>
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="#A67B4D"/>
+                            </Trigger>
+
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="#6D4A28"/>
+                                <Setter TargetName="border" Property="RenderTransform">
+                                    <Setter.Value>
+                                        <ScaleTransform ScaleX="0.99" ScaleY="0.99"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="AnimalCardButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="Width" Value="380"/>
+            <Setter Property="Height" Value="150"/>
+            <Setter Property="Margin" Value="0,8"/>
+            <Setter Property="BorderThickness" Value="0"/>
+
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="border"
+                        Background="{TemplateBinding Background}"
+                        CornerRadius="20" 
+                        RenderTransformOrigin="0.5 0.5">
+                            <Border.Effect>
+                                <DropShadowEffect BlurRadius="15" ShadowDepth="3"
+                                          Direction="275" Opacity="0.3"/>
+                            </Border.Effect>
+
+                            <Border.RenderTransform>
+                                <ScaleTransform ScaleX="1" ScaleY="1"/>
+                            </Border.RenderTransform>
+
+                            <ContentPresenter HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
                         </Border>
 
                         <ControlTemplate.Triggers>
                             <Trigger Property="IsMouseOver" Value="True">
                                 <Setter TargetName="border" Property="Background" Value="#F2F2F2"/>
                             </Trigger>
-                            <Trigger Property="Button.IsPressed" Value="True">
+                            <Trigger Property="IsPressed" Value="True">
                                 <Setter TargetName="border" Property="RenderTransform">
                                     <Setter.Value>
-                                        <ScaleTransform ScaleX="0.99" ScaleY="0.99"/>
+                                        <ScaleTransform ScaleX="0.97" ScaleY="0.97"/>
                                     </Setter.Value>
                                 </Setter>
                             </Trigger>
@@ -67,9 +201,20 @@
                 Width="400">
             <StackPanel Margin="10" VerticalAlignment="Center"
                         HorizontalAlignment="Center">
-                <TextBlock Text="ЖИТЕЛИ НАШЕГО ПИТОМНИКА" FontSize="22"
-                           FontWeight="Bold" Foreground="White" FontFamily="Candara"/>
+                <TextBlock Text="ЖИТЕЛИ НАШЕГО ПИТОМНИКА" FontSize="20"
+                           FontWeight="Bold" Foreground="White" FontFamily="Arial"/>
             </StackPanel>
+        </Border>
+
+        <Border Grid.Column="1" Grid.Row="1" VerticalAlignment="Top">
+            <Button Style="{StaticResource MakeARequest}" x:Name="MkARequestBtn"
+                    Click="MkARequestBtn_Click">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="15"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
         </Border>
 
         <Button Grid.Column="0" Grid.Row="1"
@@ -120,34 +265,56 @@
                 <DropShadowEffect BlurRadius="3" ShadowDepth="1" Opacity="0.5"/>
             </Button.Effect>
         </Button>
+        
 
         <ItemsControl x:Name="AnimalsControl"
-                      Grid.Row="1" Grid.Column="1">
+                      Grid.Row="1" Grid.Column="1"
+                      Margin="0 100 0 0">
             <ItemsControl.ItemTemplate>
                 <DataTemplate>
                     <Button Style="{StaticResource AnimalCardButtonStyle}"
                             Click="Button_Click">
+                        <Button.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="BorderThickness" Value="3"/>
+                                <Setter Property="BorderBrush" Value="#977C5F"/>
+                            </Style>
+                        </Button.Resources>
                         <Grid Width="380">
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="130"></ColumnDefinition>
                                 <ColumnDefinition Width="*"></ColumnDefinition>
                             </Grid.ColumnDefinitions>
 
-                            <Border CornerRadius="15" Margin="5" Background="#F0F0F0">
-                                <Image Source="{Binding PhotoPath}" Stretch="UniformToFill"/>
+                            <Border Grid.Column="0" 
+                                    Margin="8" 
+                                    CornerRadius="15">
+                                <Border.Background>
+                                    <ImageBrush ImageSource="{Binding PhotoPath}" 
+                                                Stretch="UniformToFill" 
+                                                AlignmentX="Center"
+                                                AlignmentY="Center"/>
+                                </Border.Background>
                             </Border>
 
                             <StackPanel Grid.Column="1" VerticalAlignment="Center" Margin="10 0">
                                 <TextBlock Text="{Binding Name, StringFormat='ИМЯ: {0}'}"
-                                           FontWeight="Bold" FontSize="16"/>
-                                <TextBlock Text="ОПИСАНИЕ:" FontSize="10" Foreground="Gray" Margin="0 5 0 0"/>
-                                <TextBlock Text="{Binding Description}"
-                                           TextWrapping="Wrap" FontSize="11"/>
+                                           FontWeight="Bold" FontSize="16" FontFamily="Arial"/>
+                                <TextBlock Text="ОПИСАНИЕ:" FontSize="11" Foreground="Gray" FontFamily="Arial"
+                                           Margin="0 5 0 0" FontWeight="Bold"/>
+                                <TextBlock Text="{Binding Description}" FontFamily="Arial"
+                                           TextWrapping="Wrap" FontSize="14"/>
                             </StackPanel>
                         </Grid>
                     </Button>
                 </DataTemplate>
             </ItemsControl.ItemTemplate>
         </ItemsControl>
+
+        <Button x:Name="BckToMnBtn"
+                Grid.Column="1" Grid.Row="2"
+                Style="{StaticResource BackToMainBtnStyle}"
+                Content="НА ГЛАВНУЮ"
+                Click="BckToMnBtn_Click"/>
     </Grid>
 </Page>

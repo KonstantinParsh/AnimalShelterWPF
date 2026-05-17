@@ -1,0 +1,308 @@
+﻿<Page x:Class="Lab4ParshArestGol.Pages.CabinetPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Lab4ParshArestGol.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="1000" d:DesignWidth="800"
+      Title="CabinetPage">
+    <Page.Resources>
+        <Style x:Key="BorderTemplate" TargetType="Border">
+            <Setter Property="CornerRadius" Value="20"/>
+        </Style>
+        <Style x:Key="HeadersStyle" TargetType="TextBox">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="Foreground" Value="#D8BF97"/>
+            <Setter Property="Width" Value="200"/>
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="TextAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="FontFamily" Value="Arial"/>
+            <Setter Property="FontSize" Value="22"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Margin" Value="0 25 0 0"/>
+            <Setter Property="IsReadOnly" Value="True"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect BlurRadius="8" ShadowDepth="3" Color="Black" Opacity="0.3" Direction="270"/>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="UserNameFieldStyle" TargetType="TextBox">
+            <Setter Property="Background" Value="#B1AF88"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Width" Value="300"/>
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="TextAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="FontFamily" Value="Arial"/>
+            <Setter Property="FontSize" Value="24"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="IsReadOnly" Value="True"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect BlurRadius="8" ShadowDepth="3" Color="Black" Opacity="0.3" Direction="270"/>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="BackToMainBtnStyle" TargetType="Button">
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="Width" Value="150"/>
+            <Setter Property="Background" Value="#896033"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontFamily" Value="Arial"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="border" 
+                Background="{TemplateBinding Background}" 
+                CornerRadius="12" 
+                SnapsToDevicePixels="True"
+                RenderTransformOrigin="0.5 0.5">
+
+                            <Border.Effect>
+                                <DropShadowEffect BlurRadius="8" ShadowDepth="3" Color="Black" Opacity="0.3" Direction="270"/>
+                            </Border.Effect>
+
+                            <Border.RenderTransform>
+                                <ScaleTransform ScaleX="1" ScaleY="1"/>
+                            </Border.RenderTransform>
+
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="#A67B4D"/>
+                            </Trigger>
+
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="#6D4A28"/>
+                                <Setter TargetName="border" Property="RenderTransform">
+                                    <Setter.Value>
+                                        <ScaleTransform ScaleX="0.99" ScaleY="0.99"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Page.Resources>
+    <Grid Background="#EEF1DE">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="150"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="60"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Border Grid.Row="0" Grid.ColumnSpan="3" Background="#B1AF88"/>
+        <Border Grid.Row="2" Grid.ColumnSpan="3" Background="#D8BF97"/>
+
+        <Border Grid.Column="1" Grid.Row="0" 
+                BorderThickness="2 0 2 0" BorderBrush="White"
+                Width="250">
+            <StackPanel Margin="10" VerticalAlignment="Center"
+                HorizontalAlignment="Center">
+                <TextBlock Text="ЛИЧНЫЙ КАБИНЕТ" FontSize="20"
+                   FontWeight="Bold" Foreground="White" FontFamily="Arial"/>
+            </StackPanel>
+        </Border>
+
+        <Border Grid.Column="1" Grid.Row="1">
+            <StackPanel>
+                <Border Width="200" Height="200"
+                Margin="0 50 0 20">
+                    <Border.Background>
+                        <ImageBrush ImageSource="/Images/userIcon.png"/>
+                    </Border.Background>
+                </Border>
+
+                <Border CornerRadius="20" BorderThickness="3" BorderBrush="#896033" Width="300">
+                    <TextBox x:Name="Login" Style="{StaticResource UserNameFieldStyle}">
+                        <TextBox.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="20"/>
+                            </Style>
+                        </TextBox.Resources>
+                    </TextBox>
+                </Border>
+
+                <Border Margin="0 20 0 0" Height="475"
+                        CornerRadius="50" Background="#B1AF88" BorderThickness="3" BorderBrush="#896033">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"></RowDefinition>
+                            <RowDefinition Height="Auto"></RowDefinition>
+                            <RowDefinition Height="Auto"></RowDefinition>
+                            <RowDefinition Height="Auto"></RowDefinition>
+                            <RowDefinition Height="Auto"></RowDefinition>
+                            <RowDefinition Height="Auto"></RowDefinition>
+                            <RowDefinition Height="Auto"></RowDefinition>
+                        </Grid.RowDefinitions>
+
+                        <Border Grid.Column="0">
+                            <StackPanel>
+                                <Border Grid.Row="0">
+                                    <TextBox Style="{StaticResource HeadersStyle}"
+                                             Text="ФАМИЛИЯ:">
+                                        <TextBox.Resources>
+                                            <Style TargetType="Border">
+                                                <Setter Property="CornerRadius" Value="20"/>
+                                            </Style>
+                                        </TextBox.Resources>
+                                    </TextBox>
+                                </Border>
+                                <Border Grid.Row="1">
+                                    <TextBox Style="{StaticResource HeadersStyle}"
+                                             Text="ИМЯ:">
+                                        <TextBox.Resources>
+                                            <Style TargetType="Border">
+                                                <Setter Property="CornerRadius" Value="20"/>
+                                            </Style>
+                                        </TextBox.Resources>
+                                    </TextBox>
+                                </Border>
+                                <Border Grid.Row="2">
+                                    <TextBox Style="{StaticResource HeadersStyle}"
+                                             Text="ОТЧЕСТВО:">
+                                        <TextBox.Resources>
+                                            <Style TargetType="Border">
+                                                <Setter Property="CornerRadius" Value="20"/>
+                                            </Style>
+                                        </TextBox.Resources>
+                                    </TextBox>
+                                </Border>
+                                <Border Grid.Row="3">
+                                    <TextBox Style="{StaticResource HeadersStyle}"
+                                             Text="Н. ТЕЛЕФОНА:">
+                                        <TextBox.Resources>
+                                            <Style TargetType="Border">
+                                                <Setter Property="CornerRadius" Value="20"/>
+                                            </Style>
+                                        </TextBox.Resources>
+                                    </TextBox>
+                                </Border>
+                                <Border Grid.Row="4">
+                                    <TextBox Style="{StaticResource HeadersStyle}"
+                                             Text="ПАРОЛЬ:">
+                                        <TextBox.Resources>
+                                            <Style TargetType="Border">
+                                                <Setter Property="CornerRadius" Value="20"/>
+                                            </Style>
+                                        </TextBox.Resources>
+                                    </TextBox>
+                                </Border>
+                                <Button x:Name="MedRecordsBtn"
+                                        Style="{StaticResource BackToMainBtnStyle}"
+                                        Width="200" Height="50" Margin="0 20 0 0"
+                                        Content="МЕД. МАНИПУЛЯЦИИ" FontSize="16" Visibility="Collapsed"
+                                        Click="MedRecordsBtn_Click"/>
+                            </StackPanel>
+                        </Border>
+                        <Border Grid.Column="1">
+                            <StackPanel>
+                                <Border Grid.Row="0">
+                                    <TextBox Style="{StaticResource HeadersStyle}"
+                                             x:Name="FirstName">
+                                        <TextBox.Resources>
+                                            <Style TargetType="Border">
+                                                <Setter Property="CornerRadius" Value="20"/>
+                                            </Style>
+                                        </TextBox.Resources>
+                                    </TextBox>
+                                </Border>
+                                <Border Grid.Row="1">
+                                    <TextBox Style="{StaticResource HeadersStyle}"
+                                             x:Name="SecondName">
+                                        <TextBox.Resources>
+                                            <Style TargetType="Border">
+                                                <Setter Property="CornerRadius" Value="20"/>
+                                            </Style>
+                                        </TextBox.Resources>
+                                    </TextBox>
+                                </Border>
+                                <Border Grid.Row="2">
+                                    <TextBox Style="{StaticResource HeadersStyle}"
+                                             x:Name="ThirdName">
+                                        <TextBox.Resources>
+                                            <Style TargetType="Border">
+                                                <Setter Property="CornerRadius" Value="20"/>
+                                            </Style>
+                                        </TextBox.Resources>
+                                    </TextBox>
+                                </Border>
+                                <Border Grid.Row="3">
+                                    <TextBox Style="{StaticResource HeadersStyle}"
+                                             x:Name="PhoneNumber">
+                                        <TextBox.Resources>
+                                            <Style TargetType="Border">
+                                                <Setter Property="CornerRadius" Value="20"/>
+                                            </Style>
+                                        </TextBox.Resources>
+                                    </TextBox>
+                                </Border>
+                                <Border Grid.Row="4">
+                                    <TextBox Style="{StaticResource HeadersStyle}"
+                                             x:Name="Password">
+                                        <TextBox.Resources>
+                                            <Style TargetType="Border">
+                                                <Setter Property="CornerRadius" Value="20"/>
+                                            </Style>
+                                        </TextBox.Resources>
+                                    </TextBox>
+                                </Border>
+                                <Button x:Name="RequestsBtn"
+                                        Style="{StaticResource BackToMainBtnStyle}"
+                                        Width="200" Height="50" Margin="0 20 0 0"
+                                        Content="ЗАЯВКИ" FontSize="16" Visibility="Collapsed"
+                                        Click="RequestsBtn_Click"/>
+                            </StackPanel>
+                        </Border>
+                    </Grid>
+                </Border>
+            </StackPanel>
+        </Border>
+
+        <Border Grid.Column="1" Grid.Row="2" BorderThickness="0">
+            <StackPanel VerticalAlignment="Center" Orientation="Horizontal"
+                        HorizontalAlignment="Center">
+                <Button x:Name="BackBtn"
+                        Style="{StaticResource BackToMainBtnStyle}"
+                        Content="НАЗАД"
+                        Click="BackBtn_Click"/>
+                <Button x:Name="LogOutBtn"
+                        Style="{StaticResource BackToMainBtnStyle}"
+                        Content="ВЫЙТИ ИЗ АККАУНТА"
+                        Width="200" Margin="15 0 0 0"
+                        Click="LogOutBtn_Click"/>
+            </StackPanel>
+        </Border>
+
+        <Border Grid.Column="2" Grid.Row="2" BorderThickness="0">
+            <Button x:Name="RecordBtn"
+                    Style="{StaticResource BackToMainBtnStyle}"
+                    Content="ОТЧЕТ"
+                    Click="RecordBtn_Click"
+                    Width="100" Visibility="Collapsed"/>
+        </Border>
+    </Grid>
+</Page>

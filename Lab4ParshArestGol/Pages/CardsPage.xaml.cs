@@ -1,6 +1,8 @@
-﻿using Lab4ParshArestGol.Models;
+﻿using Lab4ParshArestGol.Core;
+using Lab4ParshArestGol.Models;
 using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Security.Policy;
 using System.Text;
@@ -22,18 +24,60 @@ namespace Lab4ParshArestGol.Pages
     /// </summary>
     public partial class CardsPage : Page
     {
-        private List<Animal> allAnimals = new List<Animal>();
+        public List<Animal> allAnimals = new List<Animal>();
         private int currentPage = 0;
-        private const int pageSize = 3;
+        private const int pageSize = 4;
 
         public CardsPage()
         {
             InitializeComponent();
+            LoadData();    
+            UpdateCards();
         }
 
         public void LoadData()
         {
-            
+            string query = "SELECT animalId, name, species, gender, breed, color, age_months, an_weight, description, photopath, vaccinations FROM AnimalCard";
+
+            try
+            {
+                allAnimals.Clear();
+
+                using (SqlConnection connection = DatabaseHelper.GetConnection())
+                {
+                    SqlCommand command = new SqlCommand(query, connection);
+                    connection.Open();
+
+                    using (SqlDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            Animal animal = new Animal
+                            {
+                                Id = Convert.ToInt32(reader["animalId"]),
+                                Name = reader["name"].ToString(),
+                                Species = reader["species"].ToString(),
+                                Gender = Convert.ToInt32(reader["gender"]),
+                                Breed = reader["breed"].ToString(),
+                                Color = reader["color"].ToString(),
+                                AgeMonths = Convert.ToInt32(reader["age_months"]),
+                                Weight = Convert.ToDecimal(reader["an_weight"]),
+                                Description = reader["description"].ToString(),
+                                PhotoPath = reader["photopath"].ToString(),
+
+                                Vaccinations = reader["vaccinations"] != DBNull.Value ? reader["vaccinations"].ToString() : ""
+                            };
+
+                            allAnimals.Add(animal);
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ошибка БД: {ex.Message}", "Ошибка подключения",
+                                MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
 
         public void UpdateCards()
@@ -43,6 +87,7 @@ namespace Lab4ParshArestGol.Pages
                 .Take(pageSize)
                 .ToList();
 
+            AnimalsControl.ItemsSource = null;
             AnimalsControl.ItemsSource = pageData;
             UpdateNavigateButtons();
         }
@@ -55,9 +100,11 @@ namespace Lab4ParshArestGol.Pages
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            if (sender is Button button && button.DataContext is Animal selectedAnimal)
+            {
+                this.NavigationService.Navigate(new AnimalInfo(selectedAnimal.Id));
+            };
         }
-
         private void BtnBack_Click(object sender, RoutedEventArgs e)
         {
             if (currentPage > 0)
@@ -74,6 +121,34 @@ namespace Lab4ParshArestGol.Pages
             {
                 currentPage++;
                 UpdateCards();
+            }
+        }
+
+        private void BckToMnBtn_Click(object sender, RoutedEventArgs e)
+        {
+            if (NavigationService.CanGoBack)
+            {
+                NavigationService.GoBack();
+            }
+        }
+
+        private void MkARequestBtn_Click(object sender, RoutedEventArgs e)
+        {
+            if (!UserSession.IsAuthorized())
+            {
+                MessageBox.Show("Вы должны войти в аккаунт, чтобы подать заявку!", "Доступ ограничен", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
+            else
+            {
+                if (UserSession.CurrentRoleId == 1 || UserSession.CurrentRoleId == 3)
+                {
+                    this.NavigationService.Navigate(new AdminApplicationPage());
+                }
+                else
+                {
+                    this.NavigationService.Navigate(new ApplicationPage());
+                }
             }
         }
     }
